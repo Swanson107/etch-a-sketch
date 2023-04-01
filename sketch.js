@@ -38,7 +38,6 @@ function changeColor(event, element) {
 
 
 function destroyGrid() {
-    console.log("Grid Destroy Starting...");
     let boxes = document.querySelectorAll('.box');
     boxes = Array.from(boxes);
     for (i = 0; i < boxes.length; i++){

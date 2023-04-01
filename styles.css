@@ -14,6 +14,7 @@ body {
     margin-top: 1em;
     color : rgb(216, 214, 214);
     font-weight: 500;
+    margin-bottom : -0.001em;
 }
 
 #input-field {
@@ -25,7 +26,6 @@ body {
 
 #input-text-container {
     width : 33%;
-    margin-right : 3em;
 }
 
 .input-text {
