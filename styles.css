@@ -22,10 +22,14 @@ body {
     background-color : lightpink;
     display: flex;
     justify-content: center;
+    align-items:center;
 }
 
 .box {
-    border: 1px solid white;
-    width: 20px;
-    height: 20px;
+    border: 0.1px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color : blue;
+
 }
