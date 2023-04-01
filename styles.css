@@ -19,17 +19,17 @@ body {
 #container {
     width: 640px;
     height: 640px;
-    background-color : lightpink;
+    background-color : rgba(245, 221, 225, 0.13);
     display: flex;
     justify-content: center;
     align-items:center;
 }
 
 .box {
-    border: 0.1px solid white;
+    border: 1px solid white;
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color : blue;
+    
 
 }

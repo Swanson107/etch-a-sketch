@@ -1,8 +1,7 @@
 const container = document.getElementById('container');
-let size = 20;
 
 function drawGrid(size) {
-    let boxSize = ((640 * 640) / size) / 640;
+    let boxSize = Math.floor(((640 * 640) / size) / 640);
     for (let i = 0; i < size; i++) {
         let div = document.createElement('div');
         for (let n = 0; n < size; n++) {
@@ -20,5 +19,4 @@ function drawGrid(size) {
     return boxSize;
 }
 
-document.onload = drawGrid();
-
+let boxes = document.onload = drawGrid();
