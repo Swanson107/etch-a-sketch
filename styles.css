@@ -16,6 +16,38 @@ body {
     font-weight: 500;
 }
 
+#input-field {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#input-text {
+    color : rgb(216, 214, 214);
+    font-size : 18px;
+    margin-right: 0.75em;
+}
+
+#input {
+    background-color: rgb(216, 214, 214);
+    color: black;
+    font-weight: bold;
+    height: 1.35em;
+    width : 4.4em;
+    text-align: center;
+    border: none;
+    border-radius: 10%;
+    
+}
+
+#input-button {
+    margin-left : 0.5em;
+    background-color: rgb(216, 214, 214);
+    border: none;
+    border-radius: 10%;
+}
+
 #container {
     width: 640px;
     height: 640px;
