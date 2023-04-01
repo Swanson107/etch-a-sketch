@@ -23,18 +23,27 @@ body {
     
 }
 
-#input-text {
+#input-text-container {
+    width : 33%;
+    margin-right : 3em;
+}
+
+.input-text {
     color : rgb(216, 214, 214);
     font-size : 18px;
-    margin-right: 0.75em;
+}
+
+#input-entry-field {
+    display: flex;
+    justify-content: center;
 }
 
 #input {
     background-color: rgb(216, 214, 214);
     color: black;
     font-weight: bold;
-    height: 1.35em;
-    width : 4.4em;
+    height: 1.75em;
+    width : 8em;
     text-align: center;
     border: none;
     border-radius: 10%;
@@ -44,13 +53,12 @@ body {
 #input-button {
     margin-left : 0.5em;
     background-color: rgb(216, 214, 214);
-    border: none;
-    border-radius: 10%;
+    border : none;
+    border-radius: 5%;
 }
 
 #container {
-    /*background-color : rgba(245, 221, 225, 0.13);*/
-    background-color : rebeccapurple;
+    background-color : rgba(245, 221, 225, 0.13);
     display: flex;
     justify-content: center;
     align-items:center;

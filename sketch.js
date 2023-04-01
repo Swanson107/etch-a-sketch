@@ -5,7 +5,7 @@ let gridShow = false;
 
 function drawGrid(size) {
     destroyGrid();
-    let boxSize = Math.round(((780 * 780) / size) / 780);
+    let boxSize = Math.round(((680 * 680) / size) / 680);
     container.style.width = (boxSize * size + 'px');
     container.style.height = (boxSize * size + 'px');
     for (let i = 0; i < size; i++) {
