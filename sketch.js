@@ -1,8 +1,12 @@
 const container = document.getElementById('container');
 const input = document.getElementById('input');
 
+let gridShow = false;
+
 function drawGrid(size) {
-    let boxSize = Math.round(((640 * 640) / size) / 640);
+    let boxSize = Math.round(((780 * 780) / size) / 780);
+    container.style.width = (boxSize * size + 'px');
+    container.style.height = (boxSize * size + 'px');
     for (let i = 0; i < size; i++) {
         let div = document.createElement('div');
         for (let n = 0; n < size; n++) {
@@ -11,23 +15,23 @@ function drawGrid(size) {
             box.style.height = `${boxSize - 2}.px`;
             box.style.width = `${boxSize - 2}.px`;
             div.append(box);
-            container.width = (boxSize * size);
-            container.height = (boxSize * size);
-
+            
         }
 
     container.append(div);
     }
 
+    return boxSize;
+    
+
     
 }
 
 function destroyGrid() {
-    const element = document.getElementById('div');
-    element.removeChild;
+    alert("Grid Destroyed");
+    let element = document.querySelectorAll('box');
+    element.remove();
 }
-
-//let boxes = document.onload = drawGrid();
 
 function eventHandler(event) {
     //destroyGrid();

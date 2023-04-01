@@ -49,9 +49,8 @@ body {
 }
 
 #container {
-    width: 640px;
-    height: 640px;
-    background-color : rgba(245, 221, 225, 0.13);
+    /*background-color : rgba(245, 221, 225, 0.13);*/
+    background-color : rebeccapurple;
     display: flex;
     justify-content: center;
     align-items:center;
